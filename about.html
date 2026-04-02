@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — MCCI | Memetic Civic Communication Initiative</title>
+  <meta name="description" content="Learn about MCCI's mission, vision, and approach to strengthening civic literacy through digital communication." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <nav class="nav" id="mainNav" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+
+        <a href="index.html" class="nav__logo" aria-label="MCCI Home">
+          <div class="nav__logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L2 7v5c0 5.25 4.25 10.15 10 11.35C17.75 22.15 22 17.25 22 12V7L12 2zm0 2.18l8 4.28V12c0 4.34-3.38 8.4-8 9.63C7.38 20.4 4 16.34 4 12V8.46l8-4.28zM11 7v6l5.25 3.15.75-1.23-4.5-2.67V7H11z"/>
+            </svg>
+          </div>
+          <div class="nav__logo-text">
+            <span class="nav__logo-abbr">MCCI</span>
+            <span class="nav__logo-full">Memetic Civic Communication Initiative</span>
+          </div>
+        </a>
+
+        <ul class="nav__links" role="list">
+          <li><a href="index.html"  class="nav__link">Home</a></li>
+          <li><a href="about.html"  class="nav__link active">About</a></li>
+          <li><a href="Virtual Memetic Communication Lab.html" class="nav__link">Lab</a></li>
+        </ul>
+
+        <a href="index.html#get-involved" class="nav__cta">Get Involved</a>
+
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <ul class="nav__mobile" id="mobileMenu" role="list">
+        <li><a href="index.html"  class="nav__link">Home</a></li>
+        <li><a href="about.html"  class="nav__link active">About</a></li>
+        <li><a href="Virtual Memetic Communication Lab.html" class="nav__link">Lab</a></li>
+        <li><a href="index.html#get-involved" class="nav__cta btn btn--primary">Get Involved</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════
+       PAGE HERO
+  ════════════════════════════════════════════ -->
+  <section class="page-hero" aria-labelledby="aboutHeroTitle">
+    <div class="container" style="position:relative;z-index:1">
+      <div class="page-hero__kicker">
+        <p class="eyebrow">About MCCI</p>
+      </div>
+      <h1 class="page-hero__title" id="aboutHeroTitle">
+        Building a More Civically<br>Literate Generation
+      </h1>
+      <p class="page-hero__sub">
+        The Memetic Civic Communication Initiative was created to close the gap between
+        traditional civic education and the digital world where young people live today.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT INTRO + MISSION / VISION
+  ════════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="aboutIntroTitle">
+    <div class="container">
+
+      <!-- Narrative intro -->
+      <div style="max-width:var(--max-w-text);margin-bottom:var(--space-16)" class="animate-up">
+        <p class="eyebrow" style="margin-bottom:var(--space-4)">Our Story</p>
+        <h2 class="intro__heading" id="aboutIntroTitle" style="font-family:var(--font-serif);font-size:clamp(1.5rem,3vw,2.25rem);font-weight:700;margin-bottom:var(--space-6)">
+          Bridging Civic Knowledge and Digital Culture
+        </h2>
+        <p style="color:var(--slate);line-height:1.8;margin-bottom:var(--space-4)">
+          The <strong>Memetic Civic Communication Initiative (MCCI)</strong> is a digital civic
+          engagement platform established to strengthen civic literacy and community participation
+          among youth in the United States through innovative communication strategies rooted in
+          memetic communication, storytelling, and participatory media.
+        </p>
+        <p style="color:var(--slate);line-height:1.8">
+          MCCI was created in response to a growing disconnect between how civic information is
+          traditionally communicated and how young people engage with information in today's digital
+          environment. As civic discourse increasingly takes place across social media and digital
+          platforms, many young people encounter civic and political content in fragmented, informal,
+          or inaccessible formats. MCCI addresses this gap by translating complex civic concepts into
+          <strong>clear, engaging, and culturally relevant digital narratives</strong> that resonate
+          with youth audiences.
+        </p>
+      </div>
+
+      <!-- Mission / Vision diptych -->
+      <div class="mv-grid stagger">
+        <div class="mv-card mv-card--mission animate-up">
+          <div class="mv-card__type">Our Mission</div>
+          <p class="mv-card__text">
+            "To improve civic literacy and promote meaningful community participation among youth in the
+            United States by making civic knowledge accessible, engaging, and relevant through digital
+            storytelling and memetic communication."
+          </p>
+        </div>
+        <div class="mv-card mv-card--vision animate-up">
+          <div class="mv-card__type" style="color:var(--accent)">Our Vision</div>
+          <p class="mv-card__text" style="color:var(--ink)">
+            "A society where young people are well-informed, critically engaged, and active participants
+            in civic life, equipped with the knowledge and communication tools to contribute to their
+            communities and engage constructively in public discourse."
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       THE PROBLEM WE ADDRESS
+  ════════════════════════════════════════════ -->
+  <section class="problem" aria-labelledby="problemTitle">
+    <div class="container">
+
+      <div class="problem__header animate-up">
+        <p class="eyebrow" style="color:rgba(255,255,255,0.4);margin-bottom:var(--space-4)">The Challenge</p>
+        <h2 class="problem__heading" id="problemTitle">The Problem We Address</h2>
+        <p class="problem__intro">
+          Civic participation is essential to democratic governance, yet many young people lack access
+          to civic information in formats that are understandable, engaging, and relevant to their
+          everyday experiences.
+        </p>
+      </div>
+
+      <div class="problem__grid stagger">
+        <div class="problem__item animate-up">
+          Civic information is often presented in complex or inaccessible formats that do not connect
+          with how young people naturally consume and share content.
+        </div>
+        <div class="problem__item animate-up">
+          Youth primarily consume information through digital media that is not designed for civic
+          education, leaving a critical gap in civic knowledge.
+        </div>
+        <div class="problem__item animate-up">
+          Opportunities for community engagement are not always clearly communicated or made accessible
+          to young people who want to participate.
+        </div>
+        <div class="problem__item animate-up">
+          Digital spaces often amplify fragmented or misleading civic narratives, contributing to
+          misinformation and disengagement from civic life.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       OUR APPROACH
+  ════════════════════════════════════════════ -->
+  <section class="section section--alt" aria-labelledby="approachTitle">
+    <div class="container">
+
+      <div class="approach__header animate-up">
+        <p class="eyebrow" style="margin-bottom:var(--space-3)">How We Work</p>
+        <h2 class="approach__heading" id="approachTitle">Our Approach</h2>
+        <p class="approach__sub">
+          MCCI operates at the intersection of communication, education, and digital culture,
+          using innovative methods to improve how civic information is created, shared, and understood.
+        </p>
+      </div>
+
+      <div class="approach__grid stagger">
+        <div class="approach__item animate-up">
+          <h3 class="approach__item-title">Memetic Communication</h3>
+          <p class="approach__item-body">
+            We leverage culturally relevant digital formats such as memes and short-form content to
+            simplify and communicate civic concepts in ways that are easily understood and widely
+            shareable across digital platforms.
+          </p>
+        </div>
+        <div class="approach__item animate-up">
+          <h3 class="approach__item-title">Digital Storytelling</h3>
+          <p class="approach__item-body">
+            We use narrative-driven approaches to connect civic issues to real-life experiences,
+            making them more relatable and impactful for youth audiences who encounter content through
+            storytelling formats.
+          </p>
+        </div>
+        <div class="approach__item animate-up">
+          <h3 class="approach__item-title">Accessible Civic Education</h3>
+          <p class="approach__item-body">
+            We develop resources that break down complex civic processes, public policies, and
+            community issues into clear, digestible formats that any young person can understand
+            and apply.
+          </p>
+        </div>
+        <div class="approach__item animate-up">
+          <h3 class="approach__item-title">Community-Centered Engagement</h3>
+          <p class="approach__item-body">
+            We collaborate with organizations and communities to amplify local voices, support civic
+            dialogue, and encourage participation in community initiatives that matter to young people.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       WHAT WE DO
+  ════════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="wwdTitle">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-16);align-items:start" class="what-we-do">
+
+        <div class="animate-up">
+          <p class="eyebrow" style="margin-bottom:var(--space-4)">In Practice</p>
+          <h2 class="what-we-do__heading" id="wwdTitle">What We Do</h2>
+          <p style="color:var(--slate);line-height:1.8;margin-bottom:var(--space-6)">
+            Through its platform and activities, MCCI provides tangible resources, programs, and
+            tools that translate our approach into measurable outcomes for youth civic engagement.
+          </p>
+
+          <!-- Why Memetic Communication callout -->
+          <div class="callout-box">
+            <p style="font-size:var(--text-xs);font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:var(--space-3)">Why Memetic Communication</p>
+            <p style="font-size:var(--text-sm);color:var(--ink-light);line-height:1.75">
+              Memes and digital narratives have become powerful tools for shaping how individuals
+              interpret social and political issues. MCCI recognizes memetic communication as a
+              <strong>significant mode of public communication</strong> that influences civic
+              understanding, engagement, and participation.
+            </p>
+          </div>
+        </div>
+
+        <div class="animate-up" style="transition-delay:0.15s">
+          <ol class="wwd-list" aria-label="What we do">
+            <li class="wwd-item">
+              <span class="wwd-num" aria-hidden="true">01</span>
+              <p class="wwd-text">Provide youth-focused civic education resources designed for clarity and engagement.</p>
+            </li>
+            <li class="wwd-item">
+              <span class="wwd-num" aria-hidden="true">02</span>
+              <p class="wwd-text">Develop digital content that explains civic issues in accessible, shareable formats.</p>
+            </li>
+            <li class="wwd-item">
+              <span class="wwd-num" aria-hidden="true">03</span>
+              <p class="wwd-text">Host workshops and community engagement programs for youth and educators.</p>
+            </li>
+            <li class="wwd-item">
+              <span class="wwd-num" aria-hidden="true">04</span>
+              <p class="wwd-text">Produce communication frameworks and toolkits for civic education practitioners.</p>
+            </li>
+            <li class="wwd-item">
+              <span class="wwd-num" aria-hidden="true">05</span>
+              <p class="wwd-text">Support storytelling initiatives that highlight community experiences and youth voices.</p>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       NATIONAL RELEVANCE
+  ════════════════════════════════════════════ -->
+  <section class="national section--alt section" aria-labelledby="nationalTitle">
+    <div class="container">
+      <div class="national__inner">
+
+        <div class="animate-up">
+          <p class="eyebrow" style="margin-bottom:var(--space-4)">Scope &amp; Scale</p>
+          <h2 class="national__heading" id="nationalTitle">National Relevance of MCCI</h2>
+          <p class="national__body">
+            MCCI addresses issues that affect communities across the United States, providing a
+            scalable digital platform and collaborating with organizations across different regions
+            to strengthen civic awareness at a national level.
+          </p>
+
+          <div class="national__topics" role="list">
+            <div class="national__topic" role="listitem">
+              Civic literacy gaps among youth
+            </div>
+            <div class="national__topic" role="listitem">
+              Limited accessibility of civic information
+            </div>
+            <div class="national__topic" role="listitem">
+              Need for improved public engagement in community issues
+            </div>
+            <div class="national__topic" role="listitem">
+              Evolving role of digital media in shaping civic discourse
+            </div>
+          </div>
+        </div>
+
+        <div class="national__visual animate-up" style="transition-delay:0.15s" aria-hidden="true">
+          <div class="national__big-text">50</div>
+          <div class="national__big-label">States of civic engagement impact across the U.S.</div>
+
+          <div style="width:100%;height:1px;background:rgba(0,0,0,0.08)"></div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4);width:100%">
+            <div style="text-align:center">
+              <div style="font-family:var(--font-serif);font-size:var(--text-3xl);font-weight:700;color:var(--accent)">Digital</div>
+              <div style="font-size:var(--text-xs);color:var(--slate);font-weight:500">Platform Reach</div>
+            </div>
+            <div style="text-align:center">
+              <div style="font-family:var(--font-serif);font-size:var(--text-3xl);font-weight:700;color:var(--gold)">Youth</div>
+              <div style="font-size:var(--text-xs);color:var(--slate);font-weight:500">Primary Focus</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       CTA
+  ════════════════════════════════════════════ -->
+  <section class="cta-section" aria-labelledby="aboutCtaTitle">
+    <div class="container">
+      <p class="eyebrow cta-section__kicker">Ready to Connect?</p>
+      <h2 class="cta-section__heading" id="aboutCtaTitle">
+        Work With Us to Advance Civic Literacy
+      </h2>
+      <p class="cta-section__body">
+        Explore our platform, join a workshop, or reach out to discuss partnership opportunities.
+      </p>
+      <div style="display:flex;gap:var(--space-4);justify-content:center;flex-wrap:wrap">
+        <a href="Virtual Memetic Communication Lab.html" class="btn btn--primary">
+          Visit the Lab
+          <svg class="btn__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="index.html#get-involved" class="btn btn--outline">Get Involved</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <div class="footer__brand-name">MCCI</div>
+          <p class="footer__brand-desc">Advancing civic literacy and community engagement through digital communication.</p>
+          <p class="footer__contact">Contact: <a href="mailto:info@mcci.org">info@mcci.org</a></p>
+        </div>
+        <div>
+          <div class="footer__col-title">Navigation</div>
+          <ul class="footer__col-links" role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About MCCI</a></li>
+            <li><a href="Virtual Memetic Communication Lab.html">Virtual Lab</a></li>
+            <li><a href="index.html#get-involved">Get Involved</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__col-title">Programs</div>
+          <ul class="footer__col-links" role="list">
+            <li><a href="#">Civic Literacy Hub</a></li>
+            <li><a href="#">Digital Storytelling</a></li>
+            <li><a href="#">Workshops &amp; Events</a></li>
+            <li><a href="#">Partner Program</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; <span id="year"></span> Memetic Civic Communication Initiative. All rights reserved.</p>
+        <div class="footer__social" aria-label="Social media links">
+          <a href="#" aria-label="X (Twitter)"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

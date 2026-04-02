@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCCI — Memetic Civic Communication Initiative</title>
+  <meta name="description"
+    content="Strengthening youth civic literacy through digital storytelling and memetic communication." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <nav class="nav" id="mainNav" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+
+        <a href="index.html" class="nav__logo" aria-label="MCCI Home">
+          <div class="nav__logo-mark" aria-hidden="true">
+            <!-- Civic emblem icon -->
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2L2 7v5c0 5.25 4.25 10.15 10 11.35C17.75 22.15 22 17.25 22 12V7L12 2zm0 2.18l8 4.28V12c0 4.34-3.38 8.4-8 9.63C7.38 20.4 4 16.34 4 12V8.46l8-4.28zM11 7v6l5.25 3.15.75-1.23-4.5-2.67V7H11z" />
+            </svg>
+          </div>
+          <div class="nav__logo-text">
+            <span class="nav__logo-abbr">MCCI</span>
+            <span class="nav__logo-full">Memetic Civic Communication Initiative</span>
+          </div>
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav__links" role="list">
+          <li><a href="index.html" class="nav__link active">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="Virtual Memetic Communication Lab.html" class="nav__link">Lab</a></li>
+        </ul>
+
+        <a href="index.html#get-involved" class="nav__cta">Get Involved</a>
+
+        <!-- Mobile hamburger -->
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <ul class="nav__mobile" id="mobileMenu" role="list">
+        <li><a href="index.html" class="nav__link active">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="Virtual Memetic Communication Lab.html" class="nav__link">Lab</a></li>
+        <li><a href="#get-involved" class="nav__cta btn btn--primary">Get Involved</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════
+       HERO SECTION
+  ════════════════════════════════════════════ -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="container">
+      <div class="hero__grid">
+
+        <!-- Copy column -->
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow">Civic Literacy · Digital Engagement · Youth</p>
+
+          <h1 class="hero__title" id="heroTitle">
+            Strengthening Youth<br>
+            <em>Civic Literacy</em> Through<br>
+            Digital Storytelling
+          </h1>
+
+          <p class="hero__subtitle">
+            We make civic knowledge accessible, engaging, and relevant for young
+            people by translating complex civic issues into clear, shareable digital narratives.
+          </p>
+
+          <div class="hero__actions">
+            <a href="Virtual Memetic Communication Lab.html" class="btn btn--primary">
+              Explore the Lab
+              <svg class="btn__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" aria-hidden="true">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="about.html" class="btn btn--outline">Partner With Us</a>
+            <!-- <a href="#get-involved" class="btn btn--outline">Join a Workshop</a> -->
+          </div>
+        </div>
+
+        <!-- Visual column — stat cards -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__graphic">
+            <!-- Background pattern -->
+            <svg class="hero__pattern" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="200" cy="150" r="180" stroke="#1a5c3a" stroke-width="1" />
+              <circle cx="200" cy="150" r="120" stroke="#1a5c3a" stroke-width="1" />
+              <circle cx="200" cy="150" r="60" stroke="#1a5c3a" stroke-width="1" />
+              <line x1="20" y1="150" x2="380" y2="150" stroke="#1a5c3a" stroke-width="0.5" />
+              <line x1="200" y1="-30" x2="200" y2="330" stroke="#1a5c3a" stroke-width="0.5" />
+            </svg>
+
+            <!-- 4 stat cards in 2×2 grid -->
+            <div class="hero__stat-cards">
+              <div class="hero__stat">
+                <div class="hero__stat-bar"></div>
+                <div class="hero__stat-num">4</div>
+                <div class="hero__stat-label">Core Programs</div>
+              </div>
+              <div class="hero__stat">
+                <div class="hero__stat-bar"></div>
+                <div class="hero__stat-num">Youth</div>
+                <div class="hero__stat-label">Primary Audience</div>
+              </div>
+              <div class="hero__stat">
+                <div class="hero__stat-bar"></div>
+                <div class="hero__stat-num">US</div>
+                <div class="hero__stat-label">National Reach</div>
+              </div>
+              <div class="hero__stat">
+                <div class="hero__stat-bar"></div>
+                <div class="hero__stat-num">∞</div>
+                <div class="hero__stat-label">Digital Impact</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       WHAT IS MCCI
+  ════════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="whatTitle">
+    <div class="container">
+      <div class="intro">
+
+        <div class="intro__main animate-up">
+          <div class="intro__label">
+            <div class="intro__line" aria-hidden="true"></div>
+            <span class="eyebrow">What is MCCI</span>
+          </div>
+          <h2 class="intro__heading" id="whatTitle">
+            A Digital Civic Engagement Platform for Today's Youth
+          </h2>
+          <p class="intro__body">
+            The <strong>Memetic Civic Communication Initiative (MCCI)</strong> is a digital civic
+            engagement platform focused on improving civic literacy and community participation
+            among youth in the United States.
+          </p>
+          <p class="intro__body">
+            MCCI leverages memes, storytelling, and participatory digital media to transform how
+            young people access, understand, and engage with civic information. By aligning civic
+            education with modern digital communication formats, the initiative bridges the gap
+            between traditional civic knowledge and the media environments where youth actively engage.
+          </p>
+          <a href="about.html" class="btn btn--primary" style="margin-top: 0.5rem">
+            Learn More About MCCI
+            <svg class="btn__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="intro__aside animate-up" style="transition-delay:0.15s">
+          <div class="callout-box">
+            <p class="callout-box__quote">
+              "Bridging the gap between traditional civic knowledge and the digital media
+              environments where youth actively engage."
+            </p>
+          </div>
+
+          <!-- Quick facts -->
+          <div style="display:flex;flex-direction:column;gap:var(--space-3)">
+            <div class="matters__item" style="padding:var(--space-4) var(--space-5)">
+              <div class="matters__icon" aria-hidden="true">🗳️</div>
+              <div>
+                <div class="matters__item-title">Civic Literacy Focus</div>
+                <div class="matters__item-body">Improving knowledge of civic processes and responsibilities.</div>
+              </div>
+            </div>
+            <div class="matters__item" style="padding:var(--space-4) var(--space-5)">
+              <div class="matters__icon" aria-hidden="true">📱</div>
+              <div>
+                <div class="matters__item-title">Digital-Native Approach</div>
+                <div class="matters__item-body">Meeting youth where they are on the platforms they use daily.</div>
+              </div>
+            </div>
+            <div class="matters__item" style="padding:var(--space-4) var(--space-5)">
+              <div class="matters__icon" aria-hidden="true">🤝</div>
+              <div>
+                <div class="matters__item-title">Community Partnership</div>
+                <div class="matters__item-body">Collaborating with organizations to amplify local civic voices.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       WHY IT MATTERS
+  ════════════════════════════════════════════ -->
+  <section class="section section--alt" aria-labelledby="mattersTitle">
+    <div class="container">
+
+      <div class="matters__header animate-up">
+        <p class="eyebrow" style="margin-bottom:var(--space-3)">The Challenge</p>
+        <h2 class="matters__heading" id="mattersTitle">Why It Matters</h2>
+        <p class="matters__sub">
+          Civic participation is fundamental to democracy, yet young people encounter civic
+          information in fragmented and often inaccessible ways.
+        </p>
+      </div>
+
+      <div class="matters__grid stagger">
+        <div class="matters__item animate-up">
+          <div class="matters__icon" aria-hidden="true">📚</div>
+          <div>
+            <div class="matters__item-title">Making Civic Concepts Easier to Understand</div>
+            <div class="matters__item-body">
+              Complex civic ideas translated into clear, accessible formats that resonate with how young people learn.
+            </div>
+          </div>
+        </div>
+
+        <div class="matters__item animate-up">
+          <div class="matters__icon" aria-hidden="true">✨</div>
+          <div>
+            <div class="matters__item-title">Youth-Centered Civic Content</div>
+            <div class="matters__item-body">
+              Creating content that reflects the lived experiences, interests, and communication styles of young people.
+            </div>
+          </div>
+        </div>
+
+        <div class="matters__item animate-up">
+          <div class="matters__icon" aria-hidden="true">🌱</div>
+          <div>
+            <div class="matters__item-title">Encouraging Informed Participation</div>
+            <div class="matters__item-body">
+              Equipping youth with knowledge and motivation to actively participate in their communities.
+            </div>
+          </div>
+        </div>
+
+        <div class="matters__item animate-up">
+          <div class="matters__icon" aria-hidden="true">💬</div>
+          <div>
+            <div class="matters__item-title">Promoting Constructive Civic Dialogue</div>
+            <div class="matters__item-body">
+              Fostering respectful, evidence-informed conversations about public issues in digital spaces.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       HOW WE WORK
+  ════════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="howTitle">
+    <div class="container">
+
+      <div class="how__header animate-up">
+        <p class="eyebrow" style="margin-bottom:var(--space-3)">Our Method</p>
+        <h2 class="how__heading" id="howTitle">How We Work</h2>
+        <p class="how__intro">
+          MCCI operates at the intersection of communication, education, and digital culture.
+        </p>
+      </div>
+
+      <div class="how__grid stagger">
+        <div class="how__card animate-up">
+          <div class="how__card-num" aria-hidden="true">01</div>
+          <h3 class="how__card-title">Memetic Communication</h3>
+          <p class="how__card-body">
+            We use culturally relevant formats, memes and short form digital content to simplify complex civic ideas
+            and make them widely shareable.
+          </p>
+        </div>
+        <div class="how__card animate-up">
+          <div class="how__card-num" aria-hidden="true">02</div>
+          <h3 class="how__card-title">Digital Storytelling</h3>
+          <p class="how__card-body">
+            We highlight real community experiences and translate civic issues into relatable narratives that connect
+            with lived realities.
+          </p>
+        </div>
+        <div class="how__card animate-up">
+          <div class="how__card-num" aria-hidden="true">03</div>
+          <h3 class="how__card-title">Civic Education</h3>
+          <p class="how__card-body">
+            We provide accessible resources explaining civic processes, public issues, and opportunities for community
+            participation.
+          </p>
+        </div>
+        <div class="how__card animate-up">
+          <div class="how__card-num" aria-hidden="true">04</div>
+          <h3 class="how__card-title">Community Engagement</h3>
+          <p class="how__card-body">
+            We collaborate with organizations to support youth participation in civic dialogue and local community
+            initiatives.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       EXPLORE THE PLATFORM
+  ════════════════════════════════════════════ -->
+  <section class="section section--alt" aria-labelledby="exploreTitle">
+    <div class="container">
+
+      <div class="explore__header animate-up">
+        <p class="eyebrow" style="margin-bottom:var(--space-3)">Platform</p>
+        <h2 class="explore__heading" id="exploreTitle">Explore the Platform</h2>
+      </div>
+
+      <div class="explore__grid stagger">
+        <a href="Virtual Memetic Communication Lab.html" class="explore__card animate-up" role="article">
+          <div class="explore__card-icon" aria-hidden="true">🔬</div>
+          <h3 class="explore__card-title">Virtual Memetic Communication Lab</h3>
+          <p class="explore__card-body">
+            Explore insights on how digital narratives shape civic understanding and engagement.
+            Research-informed tools and frameworks for civic communicators.
+          </p>
+          <span class="explore__card-link">
+            Visit the Lab
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </span>
+        </a>
+
+        <div class="explore__card animate-up" role="article">
+          <div class="explore__card-icon" aria-hidden="true">📖</div>
+          <h3 class="explore__card-title">Civic Literacy Hub</h3>
+          <p class="explore__card-body">
+            Access simplified civic resources, visual explainers, and youth-focused civic education
+            content designed for clarity and engagement.
+          </p>
+          <span class="explore__card-link">
+            Browse Resources
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </span>
+        </div>
+
+        <div class="explore__card animate-up" role="article">
+          <div class="explore__card-icon" aria-hidden="true">📣</div>
+          <h3 class="explore__card-title">Storytelling for Civic Engagement</h3>
+          <p class="explore__card-body">
+            Discover community stories and youth perspectives on civic issues through narrative-driven
+            digital content.
+          </p>
+          <span class="explore__card-link">
+            Read Stories
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </span>
+        </div>
+
+        <div class="explore__card animate-up" role="article">
+          <div class="explore__card-icon" aria-hidden="true">🎓</div>
+          <h3 class="explore__card-title">Workshops & Events</h3>
+          <p class="explore__card-body">
+            Participate in civic storytelling, media literacy, and community dialogue sessions
+            designed to build skills and connections.
+          </p>
+          <span class="explore__card-link">
+            View Schedule
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       OUR IMPACT
+  ════════════════════════════════════════════ -->
+  <section class="impact" aria-labelledby="impactTitle">
+    <div class="container">
+
+      <div class="impact__header animate-up">
+        <p class="eyebrow" style="color:rgba(255,255,255,0.45);margin-bottom:var(--space-3)">Outcomes</p>
+        <h2 class="impact__heading" id="impactTitle">Our Impact</h2>
+        <p class="impact__sub">
+          By making civic information more accessible and engaging, MCCI contributes to
+          building a more informed and participatory society.
+        </p>
+      </div>
+
+      <div class="impact__grid stagger">
+        <div class="impact__item animate-up">
+          <div class="impact__check" aria-hidden="true">✓</div>
+          <p class="impact__item-text">Improve civic literacy among youth across the United States</p>
+        </div>
+        <div class="impact__item animate-up">
+          <div class="impact__check" aria-hidden="true">✓</div>
+          <p class="impact__item-text">Increase awareness of civic processes and responsibilities</p>
+        </div>
+        <div class="impact__item animate-up">
+          <div class="impact__check" aria-hidden="true">✓</div>
+          <p class="impact__item-text">Encourage participation in community and public life</p>
+        </div>
+        <div class="impact__item animate-up">
+          <div class="impact__check" aria-hidden="true">✓</div>
+          <p class="impact__item-text">Strengthen the quality of civic discourse in digital spaces</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       PARTNER WITH US
+  ════════════════════════════════════════════ -->
+  <section class="section" aria-labelledby="partnerTitle">
+    <div class="container">
+      <div class="partner__inner">
+
+        <div class="animate-up">
+          <p class="eyebrow" style="margin-bottom:var(--space-4)">Collaboration</p>
+          <h2 class="partner__heading" id="partnerTitle">Partner With Us</h2>
+          <p class="partner__body">
+            Interested in collaborating? Work with us to expand civic literacy and youth
+            engagement across communities.
+          </p>
+
+          <ul class="partner__list" role="list">
+            <li class="partner__list-item">Civic and community organizations</li>
+            <li class="partner__list-item">Educational institutions</li>
+            <li class="partner__list-item">Youth programs and nonprofits</li>
+            <li class="partner__list-item">Researchers and communication professionals</li>
+          </ul>
+
+          <a href="about.html" class="btn btn--primary">
+            Become a Partner
+            <svg class="btn__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="partner__visual animate-up" style="transition-delay:0.15s" aria-hidden="true">
+          <div class="partner__org-pill">
+            <div class="partner__org-dot" style="background:#1a5c3a"></div>
+            <span class="partner__org-name">Community Organizations</span>
+          </div>
+          <div class="partner__org-pill">
+            <div class="partner__org-dot" style="background:#c9933a"></div>
+            <span class="partner__org-name">Educational Institutions</span>
+          </div>
+          <div class="partner__org-pill">
+            <div class="partner__org-dot" style="background:#60a5fa"></div>
+            <span class="partner__org-name">Youth Programs &amp; Nonprofits</span>
+          </div>
+          <div class="partner__org-pill">
+            <div class="partner__org-dot" style="background:#a78bfa"></div>
+            <span class="partner__org-name">Research Institutions</span>
+          </div>
+          <div class="partner__org-pill">
+            <div class="partner__org-dot" style="background:#f87171"></div>
+            <span class="partner__org-name">Communication Professionals</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       GET INVOLVED
+  ════════════════════════════════════════════ -->
+  <section class="cta-section" id="get-involved" aria-labelledby="ctaTitle">
+    <div class="container">
+      <p class="eyebrow cta-section__kicker">Join Us</p>
+      <h2 class="cta-section__heading" id="ctaTitle">
+        Multiple Ways to Engage With MCCI
+      </h2>
+      <p class="cta-section__body">
+        Whether you are a student, educator, or community organization, there is a place for you
+        in the MCCI community.
+      </p>
+
+      <div class="cta-section__ways" role="list" aria-label="Ways to get involved">
+        <span class="way-tag" role="listitem">Attend a Workshop</span>
+        <span class="way-tag" role="listitem">Access Civic Resources</span>
+        <span class="way-tag" role="listitem">Share Your Story</span>
+        <span class="way-tag" role="listitem">Collaborate on Projects</span>
+      </div>
+
+      <a href="#" class="btn btn--primary btn--gold">
+        Get Involved Today
+        <svg class="btn__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+
+        <!-- Brand column -->
+        <div>
+          <div class="footer__brand-name">MCCI</div>
+          <p class="footer__brand-desc">
+            Advancing civic literacy and community engagement through digital communication.
+          </p>
+          <p class="footer__contact">
+            Contact: <a href="mailto:info@mcci.org">info@mcci.org</a>
+          </p>
+        </div>
+
+        <!-- Links column -->
+        <div>
+          <div class="footer__col-title">Navigation</div>
+          <ul class="footer__col-links" role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About MCCI</a></li>
+            <li><a href="Virtual Memetic Communication Lab.html">Virtual Lab</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+          </ul>
+        </div>
+
+        <!-- Programs column -->
+        <div>
+          <div class="footer__col-title">Programs</div>
+          <ul class="footer__col-links" role="list">
+            <li><a href="#">Civic Literacy Hub</a></li>
+            <li><a href="#">Digital Storytelling</a></li>
+            <li><a href="#">Workshops &amp; Events</a></li>
+            <li><a href="#">Partner Program</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; <span id="year"></span> Memetic Civic Communication Initiative. All rights reserved.
+        </p>
+        <div class="footer__social" aria-label="Social media links">
+          <!-- Twitter/X -->
+          <a href="#" aria-label="Follow us on X (Twitter)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="#" aria-label="Follow us on LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="#" aria-label="Follow us on Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
